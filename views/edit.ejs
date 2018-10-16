@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="/css/app.css">
+    </head>
+    <body>
+        <h1>Edit Fruit Page</h1>
+        <form method="POST" action="/pokemon/<%=id%>?_method=PUT">
+
+            Name: <input type="text" name="name" value="<%=pokemon.name%>"/><br/>
+            image: <input type="text" name="img" value="<%=pokemon.img%>"/><br/>
+            Is Ready To Eat:
+          
+            <br/>
+            <input type="submit" name="" value="Submit Changes"/>
+        </form>
+    </body>
+</html>
